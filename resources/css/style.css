@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+html, body {
+font-family:'Cormorant Garamond', serif;
+  }
+/*mobile*/
+  .practice {
+    display: block;
+  }
+  @media screen and (max-width:768px){
+    .practice {
+        display: none
+    }
+  }
+/*start*/
+.begining {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-top: 16px;
+
+}
+  .logo {
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .logo img {
+    width: 50px;
+    height: auto;  
+  }
+  .logo h1 {
+font-size:32px;
+margin: 0;
+
+  }
+
+  .logo span {
+  color:gray;
+  font-weight:lighter;
+  }
+
+.menu {
+box-sizing: border-box;
+width: 100%;
+padding-top: 16px;
+padding-bottom: 16px;
+
+
+}
+
+.actions ul {
+  font-size: 24px;
+  margin-top: 0;
+  gap: 16px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 24px;
+
+}
+
+.actions ul li a {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-size: 32px;
+
+
+}
+/*!!!*/
+.one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+
+  align-items: center;
+}
+
+.banner {
+
+display: flex;
+padding-left: 24px;
+width:60%;
+
+padding-top: 32px;
+padding-bottom: 32px;
+padding-right: 24px;
+}
+
+.banner img {
+width:100%;
+  height: auto;
+  
+}
+
+.banner-text {
+  width: 40%;
+
+  text-align: left;
+  padding-right: 72px;
+
+  margin-left: 16px;
+  flex-wrap: wrap;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.banner-text h1 {
+  font-size: 52px;
+  line-height: 1;
+
+}
+
+.banner-text h2 {
+  padding-top: 24px;
+  font-size: 32px;
+  line-height: 1.5;
+
+}
+/*BUTTON*/
+.banner-text p {
+  margin-top: 48px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 28px;
+text-align: center;
+
+
+}
+
+/*!!*/
+.text {
+  padding-top: 32px;
+  line-height: 1.2;
+  padding-bottom: 32px;
+
+  margin-right: 24px;
+  flex: 1;
+}
+.text h2 {
+  font-size: 48px;
+}
+.text h3 {
+font-size: 32px;
+padding-top: 24px;
+}
+.text p {
+  padding-top: 24px;
+  font-size: 24px;
+
+}
+
+
+
+/*cards on right*/
+
+.two-practice {
+  display: flex;
+  justify-content: space-between;
+  gap:24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+flex:1;
+flex-wrap: wrap;
+}
+
+
+
+.practice {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+
+.practice img {
+height: auto;
+width:100%;
+padding-right: 24px;
+flex:1;
+
+}
+
+
+.more {
+  width: 40%;
+flex:1;
+flex-wrap: wrap;
+}
+
+.group1 {
+  display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.group2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.group3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.imgs {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  padding:16px ;
+  
+}
+.imgs img {
+  width: 100%;
+  height: auto;
+}
+
+.to_pic {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  padding-left: 24px;
+  padding-top: 32px;
+  flex-shrink: 0;
+  width: 65%;
+flex:1;
+}
+.to_pic h2 {
+  font-size: 48px;
+  font-weight: 400;
+padding-bottom: 8px;
+flex:1;
+}
+
+.to_pic h3 {
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  flex:1;
+}
+
+.to_pic p {
+  font-size: 24px;
+font-weight: 400;
+
+}
+
+
+/*Courses*/
+
+
+.header {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.offer {
+width: 100%;
+}
+
+
+.all-courses {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 32px;
+ padding-top: 32px;
+width: 100%;
+flex:1;
+
+}
+
+.course {
+
+  text-align: center;
+  background-color: rgb(251, 244, 244);
+ 
+}
+
+.course h3 {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font-size: 32px;
+  
+}
+
+.course p {
+font-size: 24px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.course img {
+height: auto;
+flex:1;
+}
+
+
+
+/*4*/
+
+.four {
+  width: 100%;
+
+padding-bottom: 32px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.vid {
+padding-left: 24px;
+width: 60%;
+
+
+}
+.vid-container {
+padding-right: 24px;
+}
+.vid-container video {
+    width: 100%;
+    height: auto; 
+
+
+}
+
+.text2vid {
+ 
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.text2vid h2 {
+  font-size: 32px;
+  padding-bottom: 8px;
+  
+}
+.text2vid p {
+  font-size: 28px;
+}
+
+.right-cards {
+  display: inline-block;
+flex-direction: column;
+justify-content:flex-start;
+width: 40%;
+padding-bottom: 32px;
+margin-bottom: 32px;
+
+}
+
+.c1 {
+  display: flex;
+margin-bottom: 10px;
+justify-content: space-between;
+align-items: center;
+}
+.image {
+  width: 35%;
+  height: auto;
+  padding:16px ;
+
+}
+
+.image img {
+  width: 100%;
+}
+.text2img {
+  width: 65%;
+  padding-top: 32px;
+  text-align: left;
+  padding-left: 16px;
+  flex: 1;
+  margin-right: 24px;
+  line-height: 1.5;
+}
+.text2img h3 {
+
+  font-size: 28px;
+}
+
+.text2img h4 {
+  font-size: 24px;
+}
+
+.c2 {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.rights {
+  padding-top: 16px;
+  padding-left: 24px;
+  font-size: 20px;
+}
+
+.rights p {
+  font-size: 20px;
+  color: grey;
+}
+.tandr {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap:16px;
+  padding-right: 24px;
+}
+
+.tandr p {
+  font-size: 20px;
+  color: grey;
+}
